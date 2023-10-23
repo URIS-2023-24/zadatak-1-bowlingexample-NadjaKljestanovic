@@ -47,7 +47,7 @@ namespace ConsoleAppBowling
                     if (isLastTry == true) {
                         Console.WriteLine("Third:");
                         int third = Convert.ToInt32(Console.ReadLine());
-                        sum += third;
+                        sum += third * 2;
                         Console.WriteLine("End sum: " + sum);
                         Console.WriteLine("************");
                     }
